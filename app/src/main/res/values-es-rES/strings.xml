@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancelButton">Cancelar</string>
+    <string name="okButton">Aceptar</string>
+    <string name="birthDate">Fecha de Nacimiento</string>
+    <string name="title_new_user">NUEVO USUARIO</string>
+    <string name="title_update_user">ACTUALIZAR USUARIO</string>
+    <string name="title_filter_user">FILTRAR LISTA DE USUARIOS</string>
+    <string name="error_get_all_users">Petición de usuarios fallida, inténtalo de nuevo mas tarde.</string>
+    <string name="error_user_update">Actualización de usuario fallida, inténtelo de nuevo mas tarde.</string>
+    <string name="error_add_usr">Creación de usuario fallida, inténtelo de nuevo mas tarde.</string>
+    <string name="error_form_empty">Por favor, rellene los campos requeridos.</string>
+    <string name="error_request_id">Recuperación de usuario por ID fallida.</string>
+    <string name="error_delete_user">El usuario no ha podido ser borrado..</string>
+    <string name="filter_user_by_id_or_name_birth_date"> Filtrar por ID de Usuario / Nombre - Fecha de Nacimiento</string>
+    <string name="add_new_user">Alta de Usuario.</string>
+    <string name="userName">UNombre de Usuario:</string>
+    <string name="birth_data_since">Fecha de Nacimiento desde:</string>
+    <string name="birth_data_until">Fecha de nacimiento hasta:</string>
+    <string name="filter_by_id_name_and_birth_date">Filtrar ID / Nombre y Periodo de nacimiento</string>
+
+</resources>

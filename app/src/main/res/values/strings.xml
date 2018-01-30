@@ -1,0 +1,31 @@
+<resources>
+    <string name="cancelButton">Cancel</string>
+    <string name="okButton">Ok</string>
+    <string name="birthDate">Birth Date</string>
+    <string name="title_new_user">ADD NEW USER</string>
+    <string name="title_update_user">UPDATE USER</string>
+    <string name="title_filter_user">FILTER USER LIST</string>
+    <string name="error_get_all_users">User List request fail, try again later.</string>
+    <string name="error_user_update">User update fail, try again later</string>
+    <string name="error_add_usr">Add new user fail, try again later.</string>
+    <string name="error_form_empty">Please fill in all required fields.</string>
+    <string name="error_request_id">Request User ID Fail.</string>
+    <string name="error_delete_user">User can`t be deleted.</string>
+    <string name="filter_user_by_id_or_name_birth_date">Filter User by ID or Name/Birth Date</string>
+    <string name="add_new_user">Add new User</string>
+    <string name="birth_data_since">Birth Date Since</string>
+    <string name="birth_data_until">Birth Date Until</string>
+    <!-- not translate -->
+    <string name="TRANSITION_CARD">TRANSITION_CARD</string>
+    <string name="TRANSITION_CIRCLE">TRANSITION_CIRCLE</string>
+    <string name="app_name">CRUD RETROFIT</string>
+    <string name="deleteIcon">DeleteIcon</string>
+    <string name="fId">Id:</string>
+    <string name="user_icon">User Icon</string>
+    <string name="formTitle">User Form</string>
+    <string name="userName">User Name</string>
+    <string name="text_id">Id:</string>
+    <string name="text_name">Name</string>
+    <string name="text_BirthDate">BirthDay</string>
+    <string name="filter_by_id_name_and_birth_date">Filter by ID/Name and Birth Date</string>
+</resources>

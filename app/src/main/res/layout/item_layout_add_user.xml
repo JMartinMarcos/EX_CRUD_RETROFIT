@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mCardViewItemAdd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:elevation="@dimen/cardView_shadow_size"
+    android:focusable="true"
+    android:transitionName="@string/TRANSITION_CARD"
+    card_view:cardCornerRadius="@dimen/cardView_radius"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_linear_ic">
+
+        <ImageView
+            android:id="@+id/mUserIcon"
+            android:layout_width="@dimen/width_ic_user_add"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/user_icon"
+            android:padding="@dimen/padding_linear_ic"
+            android:scaleType="centerCrop"
+            android:transitionName="@string/TRANSITION_CIRCLE"
+            card_view:srcCompat="@drawable/ic_person_add_black_24dp" />
+
+        <TextView
+            android:id="@+id/mTextAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/padding_start_text_add_user_item"
+            android:paddingTop="@dimen/padding_top_text_add_user_item"
+            android:text="@string/add_new_user" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

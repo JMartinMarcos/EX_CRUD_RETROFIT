@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mCardViewItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:elevation="@dimen/cardView_shadow_size"
+    android:focusable="true"
+    android:transitionName="@string/TRANSITION_CARD"
+    card_view:cardCornerRadius="@dimen/cardView_radius"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_linear_ic">
+
+            <ImageView
+                android:id="@+id/mUserIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/user_icon"
+                android:padding="16dp"
+                android:scaleType="centerCrop"
+                android:transitionName="@string/TRANSITION_CIRCLE"
+                card_view:srcCompat="@drawable/ic_person_black_24dp" />
+
+            <TextView
+                android:id="@+id/mUserId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                tools:text="@string/text_id" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mUserName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/padding_top_item_text"
+            tools:text="@string/text_name" />
+
+        <TextView
+            android:id="@+id/mUserBirthDay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/padding_top_item_text"
+            tools:text="@string/text_BirthDate" />
+
+        <ImageView
+            android:id="@+id/mDeleteIcon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:contentDescription="@string/deleteIcon"
+            android:padding="@dimen/padding_top_item_text"
+            card_view:srcCompat="@drawable/ic_clear_black_24dp" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

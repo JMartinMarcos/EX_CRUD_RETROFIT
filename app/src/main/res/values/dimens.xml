@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mAppBarHeight">150dp</dimen>
+    <dimen name="titleMarginStart">48dp</dimen>
+    <dimen name="titleMarginEnd">64dp</dimen>
+    <dimen name="marginBottomProgressBar">8dp</dimen>
+    <dimen name="paddingRecyclerView">2dp</dimen>
+    <dimen name="cardView_radius">8dp</dimen>
+    <dimen name="cardView_shadow_size">2dp</dimen>
+    <dimen name="form_icon_width">120dp</dimen>
+    <dimen name="text_title_size">37sp</dimen>
+    <dimen name="padding_form">50dp</dimen>
+    <dimen name="padding_ico_form">30dp</dimen>
+    <dimen name="padding_top_item_text">45dp</dimen>
+    <dimen name="padding_linear_ic">16dp</dimen>
+    <dimen name="width_ic_user_add">85dp</dimen>
+    <dimen name="padding_ic_land">26dp</dimen>
+    <dimen name="padding_top_text_add_user_item">20dp</dimen>
+    <dimen name="padding_start_text_add_user_item">10dp</dimen>
+    <dimen name="padding_top_text_filter_item">28dp</dimen>
+</resources>
